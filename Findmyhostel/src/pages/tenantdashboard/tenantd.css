@@ -1,0 +1,86 @@
+.tenant__container {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.tenant__details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 6rem;
+  padding: 4rem;
+  flex-grow: 1;
+}
+.check__button{
+  width: 6rem;
+  height: 2rem;
+  background-color: #ffffff;
+  color: #384f95;
+  box-shadow: 8px 8px 10px   rgba(74, 72, 72, 0.75)
+}
+.tenant__container h2 {
+  margin-top: 4.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: montserrat; 
+}
+
+.tenant__profile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12rem;
+  padding-right: 12rem;
+  flex: 1;
+}
+
+.tenant__container h3 {
+  display: flex;
+  padding-left: 1.5rem;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 5rem;
+  font-size: 1rem;
+  font-weight: 200px;
+  margin-bottom: 10px;
+  font-family: montserrat;
+  border: 2px solid;
+  width: 22rem;
+  height: 3rem;
+  background-color: #556080;
+  margin-bottom: 2rem;
+}
+
+.tProfile_pic img {
+  border-radius: 12rem;
+  height: 15rem;
+  width: 15rem;
+  border: 3px solid white;
+  
+}
+
+
+.tenant__attendance {
+  text-align: left;
+  padding-left: 4rem;
+  font-size: 1rem;
+}
+
+.tenant__status {
+  /* text-align: left; */
+  padding-left: 4rem;
+  font-size: 1.5rem;
+}
+
+.tenant__status p {
+  font-size: 1.2rem;
+  font-family: montserrat;
+}
+
+.tenant__mess {
+  text-align: left;
+  padding-left: 4rem;
+  font-size: 1rem;
+}

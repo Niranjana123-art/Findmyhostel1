@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Sevillana&display=swap'); 
+.landing__container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 8rem;
+    
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    /* background-image: url(../../assets/vector.png ); */
+    overflow: hidden;
+}
+.landing__content{
+    padding-top: 5rem;
+    
+   text-align: left;
+}
+.landing__container h1{
+    font-family: "Quicksand";
+    padding-left: 3.5rem;
+    font-size: 2.5rem;
+    color:#384f95;
+    font-weight: 400;
+    /* margin-left: 0.8em; */
+}
+img[src="../../assets/vector.png"]{
+width: 5rem;
+ height: 5rem;
+}
+.bold_header{
+    font-weight: 700; 
+  
+}
+.dim_header{
+    color:#706E6E;
+}
+.landing__button{
+    border: none;
+    background:  #384f95;
+    border-radius: 68px;
+    margin-top: 2rem;
+    color: #ffffff;
+    height: 4rem;
+    width: 15rem;
+    padding:0.75rem;
+    font-size: 25px;
+    transform: translateX(20%);
+    cursor: pointer;
+}
+
+.landing__image{
+    height: 32rem;
+    width :58rem;
+    display: flex;
+    padding-top: 4rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.landing__image img{
+    transform: scaleX(-1);
+}
+
+

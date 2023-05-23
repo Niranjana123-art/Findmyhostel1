@@ -1,0 +1,120 @@
+
+.SignUp_content{
+    padding-top: 3rem;
+    margin-top: 3rem;
+    width: 25rem;
+    height: 38rem;
+    background: #a8b6d9bf;
+    backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
+    box-shadow: 8px 8px 15px   rgba(74, 72, 72, 0.75)
+  }
+  
+  .SignUp_container {
+      padding-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #ffffff;
+      width: 100vw;
+      min-height: 100vh;
+    }
+    
+    .SignUp_content h1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align:center;
+      font-weight: 500;
+      font-size: 50px;
+      margin-bottom: 2rem;
+      color: white;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  
+    }
+    .SignUp_content h2{
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align:center;
+      font-weight: 300;
+      font-size: 1.3rem;
+    }
+    .SignUp_content form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .SignUp_content label {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 0.5rem;
+      color: white;
+      text-align: start;
+    }
+    
+    .SignUp_content input {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      background-color: white;
+    }
+    .label_radio{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      cursor: pointer;
+    }
+    input[type="radio"] {
+   
+      width: 1.2rem;
+      height: 1.2rem;
+      border: 2rem solid #000000;
+      border-radius: 50%;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+      
+      }
+   
+    .SignUp_content button {
+        font-size: 1.2rem;
+        width: 12rem;
+        height: 3.5rem;
+        border-radius: 7rem;
+        border: none;
+        background-color:#384f95 ;
+        color: white;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        margin-top: 2rem;
+    }
+    
+    .SignUp_content button:hover {
+      background-color:#13014d ;
+     
+    }
+    
+    .SignUp_link {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: white;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      text-align: center;
+    }
+    
+    .SignUp_link a {
+      color: #002f32;
+      text-decoration:solid;
+      
+    }
+    
+    .SignUp_link a:hover {
+      text-decoration: underline;
+    }

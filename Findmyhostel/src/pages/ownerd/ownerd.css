@@ -1,0 +1,31 @@
+.dashboard_table {
+    width: 100vw;
+    border-collapse: collapse;
+    text-align: center;
+    
+
+  }
+  
+  .dashboard_table th,.dashboard_table td
+   {
+    border: 1px solid black;
+    padding: 8px;
+   
+    text-align: center;
+  }
+
+/*   
+  .dashboard_table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+  } */
+  
+  .dashboard_table td:first-child {
+    border-left: none;
+  }
+  
+  .dashboard_table td:last-child {
+    border-right: none;
+  }
+  
